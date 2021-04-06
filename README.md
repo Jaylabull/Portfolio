@@ -1,1 +1,1 @@
-# Portfolio Personal portfolio from scratch.
+# Portfolio Personal portfolio from scratch
