@@ -176,3 +176,40 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     text-align: center;
     list-style-type: none;
 }
+
+/* Skills page */
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 150px;
+    grid-gap: 20px;
+    padding: 50px ;
+    margin: 75px 0;
+}
+
+.grid-item
+{
+    display: flex;
+    align-items: center;
+}
+
+.row
+{
+    display: flex;
+    padding:20px;
+    display: inline-block;
+}
+
+.column
+{
+    padding: 20px;
+    display: inline-block;
+}
+
+.grid-item img
+{
+    width: 150px;
+    height: 150px;
+    box-sizing: inherit;
+}
