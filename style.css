@@ -14,6 +14,7 @@ body
 {
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 .background-image-overlay{
@@ -118,22 +119,19 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 
 .header{
     margin: 0;
-    height: 50vh;
+    height: 100%;
     width: 100%;
     background-color: rbg(250,235,215);
     text-align: left;
 }
 
-/* .header-title{
+.header-title{
+    margin: auto;
     color: rbg(0,0,0);
     text-transform: uppercase;
-    margin: auto;
-    font-size: 200;
-    position: fixed;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 15px 0;
-} */
+    display: inline-flexblock;
+    /* justify-content: left; */
+}
 
 .menu{
     color: rbg(0,0,0);
@@ -149,35 +147,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     display: inline-block;
 }
 
-.footer
-{
-    margin: auto;
-    position: relative;
-    display: block;
-    height: 300px;
-    width: 100vw;
-    background-color: rgb(194,216,229);
-}
-.footer-header{
-    /* margin: auto; */
-    padding: 20px;
-    /* width: 100vw; */
-    text-align: center;
-}
-   
-
-.footer-nav {
-    /* margin: auto; */
-    height: 250px;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: rgb(194,216,229);
-    text-align: center;
-    list-style-type: none;
-}
-
-/* Skills page */
+/* Skills */
 .grid-container
 {
     display: grid;
@@ -212,4 +182,41 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     width: 150px;
     height: 150px;
     box-sizing: inherit;
+}
+
+/* Footer */
+
+.footer
+{
+    margin: auto;
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(194,216,229);
+}
+
+.footer-header{
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 240);
+
+}
+   
+.footer-nav {
+    /* margin: auto; */
+    height: 250px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(194,216,229);
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer-icons a
+{
+    display: inline-block;
+    justify-content: right;
+    padding: 20px 20px;
 }
