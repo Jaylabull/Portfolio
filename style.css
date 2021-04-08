@@ -18,7 +18,7 @@ body
 }
 
 .background-image-overlay{
-    background-image: url("Resources/IMG_6763.jpeg");
+    background-image: url("Pics/IMG_6763.jpeg");
     background-size: cover;
     background-position: center;
     display: block;
@@ -127,10 +127,10 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 
 .header-title{
     margin: auto;
-    color: rbg(0,0,0);
+    color: rgb(0, 0, 0, 0.5);
     text-transform: uppercase;
     display: inline-flexblock;
-    /* justify-content: left; */
+    padding: 0 20px;
 }
 
 .menu{
@@ -144,7 +144,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: inline-block;
+    display: inline-flexblock;
 }
 
 /* Skills */
@@ -199,8 +199,8 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 .footer-header{
     padding: 20px;
     text-align: center;
-    color: rgb(255, 255, 240);
-
+    color: rgb(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
    
 .footer-nav {
