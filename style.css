@@ -1,7 +1,6 @@
 body
 {
-    font-family: 'Inter','Courier New', Courier, monospace;
-    padding-bottom: 50px;
+    font-family: 'Cinzel', serif;
 }
 
 *
@@ -18,29 +17,39 @@ body
 }
 
 /* Header */
-.background-image-overlay{
-    background-image: url("Pics/IMG_6763.jpeg");
-    background-size: cover;
-    background-position: center;
-    display: block;
-    height: 300px;
+video
+{
+    position: static;
+    width: 100vw;
+    height: fill;
+}
+.overlay_video_content
+{
+    max-height: max-content;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.text_overlay
+{
+   transform: translate(-50%, -50%); 
+   color: rgb(245, 245, 245);
+   position: absolute;
+   mix-blend-mode: overlay;
+   text-align: center;
+   padding: 180px 0;
+   top: 50%;
+   left: 50%;
 }
 
 .background-image-text-title{
-    text-align: center;
-    padding: 100px 10px 20px;
-    margin: 20px 8px 10px;
-    color: rgb(236, 255, 252);
-    font-size: 35px;
+    font-size: 75px;
+    padding-bottom: 50px;
 }
 
 .background-image-text{
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: rgb(236, 255, 252);
-    font-size: 20px;
+    font-size: 30px;
+    opacity: 75%;
 }
 
 li {
@@ -112,19 +121,6 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     z-index: var(--zindex-header);
 
 }
-.header-title div
-{
-    display: block;
-}
-
-.header-title h1{
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    position: fixed;
-    z-index: 1;
-    flex-shrink: 0;
-    font-size: 30px;
-}
 
 .menu{
     color: rbg(0,0,0);
@@ -147,6 +143,11 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     margin-bottom: 0;
     margin-left: var(--space-md);
 }
+
+.container h2
+{
+    text-align: center;
+}
 /* About Me */
 .bio
 {
@@ -164,41 +165,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 }
 
 /* Skills */
-.grid-container
-{
-    display: grid;
-    grid-template-columns: 150px;
-    grid-template-rows: 150px;
-    grid-gap: 20px;
-    padding: 50px ;
-    margin: 75px 0;
-}
 
-.grid-item
-{
-    display: flex;
-    align-items: center;
-}
-
-.row
-{
-    display: flex;
-    padding:20px;
-    display: inline-block;
-}
-
-.column
-{
-    padding: 20px;
-    display: inline-block;
-}
-
-.grid-item img
-{
-    width: 150px;
-    height: 150px;
-    box-sizing: inherit;
-}
 
 /* Footer */
 .footer
@@ -206,7 +173,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     margin: auto;
     position: relative;
     display: block;
-    height: 300px;
+    height: 400px;
     width: 100vw;
     background-color: rgb(194,216,229);
 }
@@ -230,10 +197,9 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     list-style-type: none;
 }
 
-.footer-icons a
-{
-    display: grid;
-    justify-content: right;
-    padding: 20px 20px;
-}
-    
+     a
+     {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+     }

@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <title>Jayla Bullard's Portfolio</title>
         <link type = "text/css" rel = 'stylesheet' href="style.css">
-        
+        <!-- Google Font  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
+
     </head>
    
     <body>
@@ -12,9 +15,6 @@
             <body>
                 <header class ="header">
                  <div class = "container">
-                    <div class="header-title">
-                        <h1>Jayla Bullard</h1>
-                    </div>
                     <nav class = "nav-menu">
                             <ul class = "menu-list">
                                 <li><a href="" class = "current menu-item">About Me.</a></li>
@@ -26,12 +26,15 @@
                 </header>
             </div>
         </div>
-        
-                <div class = "background-image-overlay">
-                    <h2 class = "background-image-text-title">Welcome to my Portfolio!</h2>
-                    <h4 class = "background-image-text">Self taught full-stack developer.</h4>
-      
-            </div>
+    <div class="overlay_video_content">
+        <video src="attachments/smoky_background.mp4"  autoplay muted loop id = "video-bkgrd"></video>
+        <div class="text_overlay">
+            <h2 class = "background-image-text-title">Jayla Bullard</h2>
+            <h4 class = "background-image-text">Junior Software Developer</h4>
+        </div>
+    
+    </div>
+
              <div class = "container">
                  <div class = "bio-text">
                     <h2>About Me</h2>
@@ -41,25 +44,15 @@
              </div>
 
              <div class="container">
-                 <h2>Skills</h2>
-                <div class = "grid-container row">
-                    <div class = "grid-item column">
-                        <img src="Pics/Other-html-5-icon.png" alt = "HTML5 image">    
-                    <div class="grid-item column">
-                        <img src = "Pics/css_icon.png" alt = "CSS image">
-                    </div>
-                    </div>
-                    <div class = "grid-item column">
-                        <img src = "Pics/js_icon.png" alt = "javaScript image">
-                    </div> 
-                    <div class="grid-item column">
-                        <img src="Pics/c sharp icon.svg" alt="c sharp image">
-                    </div>
-                </div>
+                 <div class="skills">
+                    <h2>Skills</h2>
+                 </div>
             </div>  
             
             <div class="container">
-                <h2>Projects</h2>
+                <div class="projects">
+                    <h2>Projects</h2>
+                </div>
             </div>
 
             </body>
@@ -69,7 +62,7 @@
                 <div class="links">
                     
                 </div>
-                    <div class="footer-icons">
+                    <!-- <div class="footer-icons"> -->
                         <a href="https://github.com/Jaylabull" rel="noopener noreferrer" target="_blank"
                         style="transform: translate(0px, 0px);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -89,7 +82,7 @@
                             <path d="M0 0V18H24V0H0ZM21.518 2L12 9.713L2.482 2H21.518ZM2 16V4.183L12 12.287L22 4.183V16H2Z"
                             fill="white" ></path>
                             </svg></a>
-                    </div>
+                    <!-- </div> -->
 
             </footer>
       
