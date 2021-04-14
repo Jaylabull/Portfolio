@@ -147,6 +147,9 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 .container h2
 {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 45px;
 }
 /* About Me */
 
@@ -216,9 +219,15 @@ img.bio_pic
     list-style-type: none;
 }
 
+.footer-icons
+{
+    display: flex;
+    /* width: 100px; */
+    align-items: center;
+    justify-content: center;
+    /* height: 100px; */
+}
      a
      {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
+        padding: 20px 50px;
      }
