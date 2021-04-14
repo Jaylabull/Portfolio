@@ -45,11 +45,13 @@ video
 .background-image-text-title{
     font-size: 75px;
     padding-bottom: 50px;
+    transform: translateY(-150px);
 }
 
 .background-image-text{
     font-size: 30px;
     opacity: 75%;
+    transform: translateY(-100px);
 }
 
 li {
@@ -195,7 +197,7 @@ img.bio_pic
     margin: auto;
     position: relative;
     display: block;
-    height: 400px;
+    height: 200px;
     width: 100vw;
     background-color: rgb(194,216,229);
 }
@@ -209,7 +211,6 @@ img.bio_pic
 }
    
 .footer-nav {
-    /* margin: auto; */
     height: 250px;
     width: 100%;
     padding-top: 50px;
@@ -222,10 +223,8 @@ img.bio_pic
 .footer-icons
 {
     display: flex;
-    /* width: 100px; */
     align-items: center;
     justify-content: center;
-    /* height: 100px; */
 }
      a
      {
