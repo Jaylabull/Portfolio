@@ -149,20 +149,39 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     text-align: center;
 }
 /* About Me */
-.bio
-{
-    box-sizing: border-box;
-    padding: 5px 35px;
-    margin: 20px 0;
-}
-.bio-text{
+
+.about-section{
     margin: auto;
-    width: 100%;
+    width: 75%;
     height: 100%;
-    margin-top: 20px;
-    margin-bottom: 50px; 
-    padding: 5px 5px 50px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px 80px;
+    margin: 20px 20px;
 }
+
+p.about-text{
+    align-self: baseline;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.bio-img div
+{
+    border-radius: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+}
+
+img.bio_pic 
+{
+    height: auto;
+    width: 300px; 
+    padding: 20px 50px;
+}
+
 
 /* Skills */
 
