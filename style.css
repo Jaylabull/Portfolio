@@ -45,13 +45,13 @@ video
 .background-image-text-title{
     font-size: 75px;
     padding-bottom: 50px;
-    transform: translateY(-150px);
+    transform: translateY(-70px);
 }
 
 .background-image-text{
     font-size: 30px;
     opacity: 75%;
-    transform: translateY(-100px);
+    transform: translateY(-50px);
 }
 
 li {
