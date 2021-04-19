@@ -190,6 +190,51 @@ img.bio_pic
 
 /* Skills */
 
+/* Projects */
+.project-card
+{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgb(128, 128, 128);
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_grid
+{
+    display: grid;
+    grid-template-columns: 8fr 6fr;
+    padding: 20px 20px;
+    align-self: baseline;
+    width: 58rem;
+}
+
+.card-title
+{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.video
+{
+    width: 100%;
+}
+
+p.card-desc
+{
+    align-self: flex-end;
+}
+
+.project-width
+{
+    width: 70rem;
+}
+
+
 
 /* Footer */
 .footer
