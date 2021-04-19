@@ -20,8 +20,7 @@ body
 video
 {
     position: static;
-    width: 1382px;
-    height: 777.38px
+    width: 100vw;
 }
 .overlay_video_content
 {
@@ -132,6 +131,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 .menu-list{
     list-style-type: none;
     width: 100%;
+    /* width: 100vw; */
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -197,6 +197,7 @@ img.bio_pic
     padding: 20px;
     margin: 20px;
     border: 1px solid rgb(128, 128, 128);
+    box-shadow: 5px 10px 18px rgb(128, 128, 128) ;
     width: auto;
     height: auto;
     align-items: center;
@@ -205,11 +206,6 @@ img.bio_pic
 
 .card_grid
 {
-    /* display: grid;
-    grid-template-columns: 8fr 6fr;
-    padding: 20px 20px;
-    align-self: baseline;
-    width: 58rem; */
     display: grid;
     grid-template-columns: 15fr 14fr;
     grid-template-rows: 21rem;
@@ -219,7 +215,6 @@ img.bio_pic
 .card-title
 {
     text-align: center;
-    /* padding: 20px 20px; */
     font-size: 35px;
     color: rgb(145, 143, 143);
 }
@@ -243,7 +238,25 @@ p.card-desc
     width: 70rem;
 }
 
+#languages
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 5px;
+}
 
+#languages li
+{
+   background-color: rgb(194,216,229, 0.5); 
+   border-radius: 5px;
+   padding: 5px 10px;
+   color: rgb(145, 143, 143);
+   align-items: center;
+   font-size: 20px;
+}
 
 /* Footer */
 .footer
