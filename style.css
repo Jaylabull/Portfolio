@@ -20,8 +20,8 @@ body
 video
 {
     position: static;
-    width: 100vw;
-    height: fill;
+    width: 1382px;
+    height: 777.38px
 }
 .overlay_video_content
 {
@@ -157,7 +157,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 
 .about-section{
     margin: auto;
-    width: 75%;
+    width: 66rem;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -205,28 +205,37 @@ img.bio_pic
 
 .card_grid
 {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 8fr 6fr;
     padding: 20px 20px;
     align-self: baseline;
-    width: 58rem;
+    width: 58rem; */
+    display: grid;
+    grid-template-columns: 15fr 14fr;
+    grid-template-rows: 21rem;
+    padding: 30px 20px;
 }
 
 .card-title
 {
     text-align: center;
-    padding: 20px 20px;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    /* padding: 20px 20px; */
+    font-size: 35px;
+    color: rgb(145, 143, 143);
 }
 .video
 {
     width: 100%;
+    position: inherit;
+    height: auto;
+    border-radius: 15px;
 }
 
 p.card-desc
 {
-    align-self: flex-end;
+    align-self: center;
+    padding: 40px;
+    margin: 10px;
 }
 
 .project-width
