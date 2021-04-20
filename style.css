@@ -57,7 +57,7 @@ li {
     display: inline;
     text-align: right;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     margin-right: 90;
     margin-left: 90;
     margin: 5px;
@@ -197,7 +197,8 @@ img.bio_pic
     padding: 20px;
     margin: 20px;
     border: 1px solid rgb(128, 128, 128);
-    box-shadow: 5px 10px 18px rgb(128, 128, 128) ;
+    box-shadow: 5px 10px 18px rgb(128, 128, 128);
+    background-color: rgb(194,216,229);
     width: auto;
     height: auto;
     align-items: center;
@@ -216,7 +217,7 @@ img.bio_pic
 {
     text-align: center;
     font-size: 35px;
-    color: rgb(145, 143, 143);
+    color: rgb(240, 248, 255);
 }
 .video
 {
@@ -250,7 +251,7 @@ p.card-desc
 
 #languages li
 {
-   background-color: rgb(194,216,229, 0.5); 
+   background-color: rgb(240, 248, 255); 
    border-radius: 5px;
    padding: 5px 10px;
    color: rgb(145, 143, 143);
