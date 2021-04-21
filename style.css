@@ -157,13 +157,25 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 
 .about-section{
     margin: auto;
-    width: 66rem;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
     padding: 20px 80px;
     margin: 20px 20px;
+    transform: translateY();
+    transition: transform 3s ease-in;
 }
+
+.about-section.show 
+{
+    transform: translateY();
+}
+
+.about-section.hide 
+{
+    display: none;
+}
+
 
 p.about-text{
     align-self: baseline;
