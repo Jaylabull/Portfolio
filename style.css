@@ -90,6 +90,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 
 .nav-menu.active a {
     color: rgb(0,0,0, 0.3);
+    text-decoration: none;
 }
 
 .nav-menu.active .container
