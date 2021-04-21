@@ -163,7 +163,7 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
     padding: 20px 80px;
     margin: 20px 20px;
     transform: translateY();
-    transition: transform 3s ease-in;
+    transition: transform 5s ease;
 }
 
 .about-section.show 
@@ -206,30 +206,31 @@ img.bio_pic
 .project-card
 {
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
-    margin: 20px;
+    margin: auto;
+    margin-bottom: 40px;
     border: 1px solid rgb(128, 128, 128);
-    box-shadow: 5px 10px 18px rgb(128, 128, 128);
-    background-color: rgb(194,216,229);
-    width: auto;
-    height: auto;
-    align-items: center;
+    box-shadow: 5px 10px 18px rgb(128 128 128);
+    background-color: whitesmoke;
+    width: 65%;
+    align-items: baseline;
     justify-content: center;
 }
 
 .card_grid
 {
     display: grid;
-    grid-template-columns: 15fr 14fr;
-    grid-template-rows: 21rem;
-    padding: 30px 20px;
+    /* grid-template-columns: 15fr 14fr;
+    grid-template-rows: 21rem; */
+    padding: 10px;
 }
 
 .card-title
 {
     text-align: center;
     font-size: 35px;
-    color: rgb(240, 248, 255);
+    color: rgb(145, 143, 143);
 }
 .video
 {
@@ -242,13 +243,13 @@ img.bio_pic
 p.card-desc
 {
     align-self: center;
-    padding: 40px;
     margin: 10px;
+    width: 100%;
 }
 
 .project-width
 {
-    width: 70rem;
+    width: inherit;
 }
 
 #languages
@@ -269,6 +270,17 @@ p.card-desc
    color: rgb(145, 143, 143);
    align-items: center;
    font-size: 20px;
+}
+
+
+.projects.show 
+{
+    transform: translateY(0);
+}
+
+.projects.hide 
+{
+    display: none;
 }
 
 /* Footer */
