@@ -9,6 +9,18 @@
 //     }
 // }
 
+// Dynamic Nav Bar
+const nav = document.querySelector('.nav-menu')
+window.addEventListener('scroll', fixNav)
+
+function fixNav (){
+    if(window.scrollY > nav.offsetHeight + 150){
+        nav.classList.add('active')
+    } else{
+        nav.classList.remove('active')
+    }
+}
+
 $(document).ready(function () {
 //Scroll to section
     $('a[href^="#"]').on('click', function (e) {
@@ -40,16 +52,4 @@ $(document).ready(function () {
         }
     })
 });
-
-// Dynamic Nav Bar
-const nav = document.querySelector('.nav-menu')
-window.addEventListener('scroll', fixNav)
-
-function fixNav (){
-    if(window.scrollY > nav.offsetHeight + 150){
-        nav.classList.add('active')
-    } else{
-        nav.classList.remove('active')
-    }
-}
 
