@@ -18,11 +18,14 @@ body
 
 .links
 {
-    padding: 10px;
+    /* padding: 10px; */
+    margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.links a 
+.links a
 {
     display: inline-block;
     text-align: center;
@@ -35,6 +38,17 @@ body
     font-size: 20px;
     padding: 5px;
     margin: 10px;
+}
+
+.links p
+{
+    display: inline-flexbox;
+    text-align: center;
+    padding: 0 10px;
+
+    /* display: inline-block;
+    padding: 0 10px;
+    width: max-content; */
 }
 
 .links a:hover
@@ -186,12 +200,13 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 /* About Me */
 
 .about-section{
-    margin: auto;
+    /* margin: auto; */
+    z-index: 1;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    padding: 20px 80px;
-    margin: 20px 20px;
+    padding: 20px 10px;
+    margin: 20px 5px;
     animation: fadeIn linear 2.5s;
   -webkit-animation: fadeIn linear 2.5s;
 }
@@ -202,8 +217,10 @@ box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
 
 p.about-text{
     align-self: baseline;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    /* padding-top: 25px;
+    padding-bottom: 10px; */
+    width: 90%;
+    padding: 10px;
 }
 
 .bio-img div
@@ -226,6 +243,7 @@ img.bio_pic
 .project-card
 {
     display: flex;
+    z-index: 1;
     flex-wrap: wrap;
     padding: 20px;
     margin: auto;
